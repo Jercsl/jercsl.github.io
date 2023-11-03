@@ -1,0 +1,42 @@
+/* Establece el fondo de toda la página al color #666666 */
+body {
+    background-color: #666666;
+    color: #fff; /* Texto en color blanco */
+    font-family: Arial, sans-serif; /* Tipo de fuente */
+    text-align: center; /* Texto centrado en el cuerpo */
+}
+
+/* Estilo para el encabezado (h1) */
+h1 {
+    font-size: 36px; /* Tamaño de fuente más grande */
+    margin-top: 30px; /* Espacio superior */
+}
+
+/* Estilo para la imagen */
+.dank img {
+    border: 5px solid #fff; /* Borde blanco de 5px */
+    border-radius: 50%; /* Borde redondeado */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra suave */
+}
+#footer-image {
+    position: fixed;
+    bottom: 10px; /* Ajusta la distancia desde la parte inferior */
+    right: 10px; /* Ajusta la distancia desde la derecha */
+}
+
+
+
+/* Estilo para los enlaces de redes sociales */
+.social-media a {
+    position: relative;
+    font-size: 36px; /* Tamaño de fuente más grande */
+    margin: 10px; /* Espacio entre los íconos */
+    color: #000; /* Cambia el color de los íconos a negro */
+    text-decoration: none; /* Sin subrayado en el enlace */
+}
+
+/* Al pasar el mouse sobre los enlaces */
+.social-media a:hover {
+    color: white; /* Cambia el color al pasar el mouse a un naranja */
+}
+
