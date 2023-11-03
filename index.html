@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="icon" href="https://th.bing.com/th/id/OIG.kNmZd5esfioh70EQKDG8?pid=ImgGn" type="image/png">
+    <title>Jer</title>
+</head>
+<body>
+        <h1 id="social-media-title">Social Media</h1>
+
+        <div class="dank">
+            <img src="https://cdn.7tv.app/emote/62a9937b880eebb2ceadf3c4/4x.webp" width="200px" alt="dank">
+        </div>
+        <div id="footer-image">
+        <img src="https://cdn.7tv.app/emote/612d9c54fc02cc1a1f411400/4x.webp" width="200px" alt="Footer Image">
+    </div>
+        <div class="container">
+            <div class="social-media">
+                <a href="https://www.github.com/"><i class="fab fa-github"></i></a>
+            </div>
+            <div class="social-media">
+                <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="social-media">
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="social-media">
+                <a href="https://open.spotify.com/"><i class="fab fa-spotify"></i></a>
+            </div>
+            <div class="social-media">
+                <a href="https://tiktok.com/"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+    <script>
+        const title = document.getElementById("social-media-title");
+      
+        // Función para generar un color aleatorio
+        function getRandomColor() {
+          const letters = "0123456789ABCDEF";
+          let color = "#";
+          for (let i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 16)];
+          }
+          return color;
+        }
+      
+        // Función para cambiar el color del título cada segundo
+        function changeTitleColor() {
+          title.style.color = getRandomColor();
+        }
+      
+        // Cambia el color del título cada segundo
+        setInterval(changeTitleColor, 1000);
+      </script>
+          <script>
+            // Función para cambiar el fondo con un degradado RGB
+            function changeBackgroundColor() {
+                const r = Math.floor(Math.random() * 256);
+                const g = Math.floor(Math.random() * 256);
+                const b = Math.floor(Math.random() * 256);
+                document.body.style.background = `rgb(${r},${g},${b})`;
+            }
+    
+            // Cambia el fondo cada 3 segundos (3000 milisegundos)
+            setInterval(changeBackgroundColor, 3000);
+        </script>
+
+</body>
+</html>
